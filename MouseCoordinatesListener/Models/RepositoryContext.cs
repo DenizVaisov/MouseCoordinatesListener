@@ -8,5 +8,6 @@ namespace MouseCoordinatesListener.Models
         public RepositoryContext(DbContextOptions options): base(options) { }
 
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Event> Events { get; set; } 
     }
 }
